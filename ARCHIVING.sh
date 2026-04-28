@@ -1,5 +1,5 @@
 #!/bin/bash
-#project made by silent_reaper or sheild techo
+#project made by MichaelCode-tech
 # --- Main Menu Functions ---
 
 main_menu() {
