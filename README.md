@@ -1,41 +1,54 @@
-# ARCHIVING & COMPRESSION BASH TOOL
+# ARCHIVING AND COMPRESSION BASH TOOL
 
 ## Overview
-This repository contains a Bash tool for archiving and compressing files. It provides users with a simple command line interface to organize and save disk space by efficiently compressing files and directories.
+This tool provides a simple and effective way to archive and compress files using bash scripts. Using this tool, you can quickly archive multiple files and directories, saving time and storage space.
 
 ## Features
-- **File Archiving**: Combine multiple files into a single archive to simplify storage and management.
-- **Compression**: Reduce file size utilizing various algorithms (e.g., gzip, bzip2).
-- **Directory Support**: Easily archive and compress entire directories.
-- **Customizable Options**: Users can specify output formats and compression levels.
+- Create archives from specified directories and files.
+- Support for multiple compression algorithms (gzip, bzip2, etc.).
+- Easy to use command-line interface.
+- Flexible options for specifying files and directories for archiving.
+
+## Requirements
+- Bash environment (Linux, macOS, or WSL)
+- Basic knowledge of command-line usage.
 
 ## Installation
-1. Clone the repository:
+1. Clone this repository:
    ```bash
    git clone https://github.com/MichaelCode-tech/-ARCHIVING-COMPRESSION-BASH-TOOL.git
-   cd ARCHIVING-comprestion-bash-tool
+   cd -ARCHIVING-COMPRESSION-BASH-TOOL
    ```
-2. Give execution permission to the script:
+2. Make sure to give execution permissions to the scripts:
    ```bash
-   chmod +x ARCHIVING.sh
+   chmod +x *.sh
    ```
 
-## Usage
+## Usage Examples
 ### Archiving Files
-To archive files, run:
+To create an archive of specific files:
 ```bash
-./ARCHIVING.sh 
+./archive.sh file1.txt file2.txt
 ```
+
 ### Compressing Files
-To compress a file, run:
+To compress a directory:
 ```bash
-./ARCHIVING.sh then select from menu 2
+./compress.sh my_directory/
 ```
-### Archiving and Compressing Directories
-To archive and compress a directory, run:
-```bash
-./ARCHIVING.sh
-```
+
+## Features Breakdown
+- **Archiving**: Use the `archive.sh` script to bundle files together.
+- **Compression**: Use the `compress.sh` script to apply compression algorithms.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+MichaelCode-tech - [GitHub Profile](https://github.com/MichaelCode-tech)
 
 ## Contributing
-Contributions are welcome! Please submit a pull request for any improvements or additional features.
+Contributions are welcome! Please fork the repository and create a pull request.
+
+## Support
+For support, please raise an issue on GitHub.
